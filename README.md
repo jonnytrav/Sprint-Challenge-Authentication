@@ -45,6 +45,7 @@ Demonstrate your understanding of this week's concepts by answering the followin
 - [ ] What does bcrypt do to slow down attackers?
 
 - [ ] What are the three parts of the JSON Web Token?
+      -The header which contains the signing algorithm used and the type of token. The payload which usually has the subject property that lines up with primary key somewhere and the clients name and the claims they have. The signature combines the header with the payload and signs it with a secret.
 
 ## Minimum Viable Product
 
